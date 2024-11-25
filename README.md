@@ -1,19 +1,49 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# starbucks-react
-Clone do Starbucks utilizando React e styled-components
-=======
->>>>>>> 5be3d29 (Initial commit)
-# React + Vite
+# Starbucks Clone - Desafio Final Vai Na Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse é o desafio final do módulo do Vai Na Web, onde fiz um clone do site do Starbucks utilizando React, styled-components, react-router-dom, com foco em boa prática de desenvolvimento, estrutura semântica e responsividade.
 
-Currently, two official plugins are available:
+## Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-<<<<<<< HEAD
-=======
->>>>>>> 8101bb1 (Initial commit)
->>>>>>> 5be3d29 (Initial commit)
+O projeto consiste em um **clone do site do Starbucks**, mantendo fidelidade ao design proposto e utilizando as tecnologias mencionadas. O layout e as funcionalidades principais foram replicados para demonstrar o domínio de React, gerenciamento de rotas e estilos dinâmicos com Styled-components.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para criação de interfaces dinâmicas e componentes reutilizáveis.
+- **styled-components**: Biblioteca para estilização de componentes, permitindo escrever CSS diretamente no JavaScript.
+- **react-router-dom**: Usado para gerenciar a navegação entre diferentes páginas do site.
+- **Fontes**: Utilização das fontes do Google Fonts para a tipografia do site.
+
+## Funcionalidades
+
+- **Navegação entre páginas**: A aplicação possui três principais páginas:
+  - Home
+  - Novidades
+  - Sobre
+- **Responsividade**: A interface é totalmente responsiva, ajustando-se para dispositivos móveis, tablets e desktop.
+- **Estilos com styled-components**: Toda a parte visual do site é feita usando a abordagem de styled-components, garantindo uma estrutura de estilos coesa e reutilizável.
+
+## Instruções de Execução
+
+### Para rodar o projeto localmente:
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/starbucks-clone.git
+   
+2. Navegue até a pasta do projeto:
+
+    ```bash
+    cd starbucks-clone
+
+3. Instale as dependências:
+
+    ```bash
+    npm install
+
+4. Execute o projeto:
+
+    ```bash
+    npm start
+
+O projeto ficará disponível no http://localhost:3000.
