@@ -1,3 +1,4 @@
+import NovidadesImg from "../../assets/images/novidades.png";
 import {
   Button,
   H2,
@@ -22,7 +23,7 @@ const Novidades = () => {
         <Button>SAIBA MAIS</Button>
       </TextDiv>
       <div>
-        <Img src="/src/assets/images/novidades.png" alt="" />
+        <Img src={NovidadesImg} alt="" />
       </div>
     </Section>
   );

@@ -1,10 +1,11 @@
+import SobreImg from "../../assets/images/sobre.png";
 import { Button, H2, Img, P, Section, StyledP, TextDiv } from "./SobreStyle";
 
 const Sobre = () => {
   return (
     <Section>
       <div>
-        <Img src="/src/assets/images/sobre.png" alt="" />
+        <Img src={SobreImg} alt="" />
       </div>
       <TextDiv>
         <StyledP>PREPARAÇÃO</StyledP>
