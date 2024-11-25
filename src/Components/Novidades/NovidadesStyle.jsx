@@ -9,6 +9,12 @@ export const Section = styled.section`
   width: 100%;
   background-color: #1e3932;
   color: white;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
 `;
 
 export const StyledP = styled.p`
@@ -16,18 +22,39 @@ export const StyledP = styled.p`
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 24px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 export const Img = styled.img`
   width: 526px;
   height: 367px;
   margin-right: 10em;
+
+  @media (max-width: 1024px) {
+    width: 400px;
+    height: 300px;
+    margin-right: 5em;
+  }
+
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 225px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 `;
 
 export const H2 = styled.h2`
   font-size: 64px;
   font-weight: 400;
   margin-bottom: 0.5em;
+
+  @media (max-width: 768px) {
+    font-size: 48px;
+  }
 `;
 
 export const P = styled.p`
@@ -35,6 +62,15 @@ export const P = styled.p`
   line-height: 36px;
   width: 50%;
   margin-bottom: 1em;
+
+  @media (max-width: 1024px) {
+    width: 70%;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    font-size: 18px;
+  }
 `;
 
 export const Button = styled.button`
@@ -47,8 +83,22 @@ export const Button = styled.button`
   padding: 15px 60px;
   font-size: 20px;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    padding: 10px 40px;
+    font-size: 18px;
+  }
 `;
 
 export const TextDiv = styled.div`
   margin-left: 8em;
+
+  @media (max-width: 1024px) {
+    margin-left: 4em;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+    text-align: center;
+  }
 `;
