@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/logo.png";
 import {
   HeaderStyle,
   LogoStyle,
@@ -9,7 +10,7 @@ import {
 const Header = () => {
   return (
     <HeaderStyle>
-      <LogoStyle src="/src/assets/images/logo.png" alt="Logomarca Starbucks" />
+      <LogoStyle src={logo} alt="Logomarca Starbucks" />
       <nav>
         <UlStyle>
           <ListIten>
