@@ -1,13 +1,13 @@
 import { useState, useCallback } from "react";
-import copoAmarelo from "../../assets/Images/copo-amarelo.png";
-import copoVermelho from "../../assets/Images/copo-vermelho.png";
-import copoVerde from "../../assets/Images/copo-verde.png";
-import copaoAmarelo from "../../assets/Images/copao-amarelo.png";
-import copaoVermelho from "../../assets/Images/copao-red.png";
-import copaoVerde from "../../assets/Images/copao-verde.png";
-import ellipseVerde from "../../assets/Images/ellipse-green.png";
-import ellipseVermelho from "../../assets/Images/ellipse-red.png";
-import ellipseAmarelo from "../../assets/Images/ellipse-yellow.png";
+import copoAmarelo from "../../assets/images/copo-amarelo.png";
+import copoVermelho from "../../assets/images/copo-vermelho.png";
+import copoVerde from "../../assets/images/copo-verde.png";
+import copaoAmarelo from "../../assets/images/copao-amarelo.png";
+import copaoVermelho from "../../assets/images/copao-red.png";
+import copaoVerde from "../../assets/images/copao-verde.png";
+import ellipseVerde from "../../assets/images/ellipse-green.png";
+import ellipseVermelho from "../../assets/images/ellipse-red.png";
+import ellipseAmarelo from "../../assets/images/ellipse-yellow.png";
 import Button from "../Button/Button.jsx";
 import {
   ButtonWrapper,
